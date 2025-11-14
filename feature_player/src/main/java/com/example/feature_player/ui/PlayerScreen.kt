@@ -86,7 +86,7 @@ fun PlayerScreen(playerViewModel: PlayerViewModel, onBack: () -> Unit) {
 
 @Composable
 fun PlayerList(players: List<Player>) {
-    LazyColumn(modifier = Modifier.padding(top = 16.dp)) {
+    LazyColumn(modifier = Modifier.padding(top = 22.dp)) {
         items(players) { player ->
             PlayerItem(player)
         }
